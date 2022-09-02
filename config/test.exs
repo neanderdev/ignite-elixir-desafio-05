@@ -1,4 +1,4 @@
-use Mix.Config
+import Config
 
 # Configure your database
 #
@@ -7,8 +7,8 @@ use Mix.Config
 # Run `mix help test` for more information.
 config :exmeal, Exmeal.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "exmeal_test#{System.get_env("MIX_TEST_PARTITION")}",
+  password: "s4020",
+  database: "exmeal_dev",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 

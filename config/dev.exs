@@ -1,9 +1,9 @@
-use Mix.Config
+import Config
 
 # Configure your database
 config :exmeal, Exmeal.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "s4020",
   database: "exmeal_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
